@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: fonte_pizza;
+    src: url(CHEESEPIZZA.ttf);
+}
+
+header{
+    height: 500px;
+    background-image: url(pexels-eneida-nieves-905847\ \(7\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+nav ul{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+li{
+    font-family: fonte_pizza;
+    color: antiquewhite;
+    font-size: 35px;
+    list-style-type: none;
+}
+h1{
+    color: #FFEE63;
+    text-align: center;
+    font-family: fonte_pizza;
+    font-size: 55px;
+}
